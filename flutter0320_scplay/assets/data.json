@@ -1,0 +1,28 @@
+{
+  "result": {
+    "offset": 0,
+    "limit": 10000,
+    "count": 1,
+    "sort": "",
+    "results": [
+      {
+        "_id": 1,
+        "Station": "後山埤站",
+        "Destination": "頂埔站",
+        "UpdateTime": "2015-08-24T12:03:27.907"
+      },
+      {
+        "_id": 2,
+        "Station": "永寧站",
+        "Destination": "南港展覽館站",
+        "UpdateTime": "2015-08-24T12:03:27.907"
+      },
+      {
+        "_id": 3,
+        "Station": "台北車站",
+        "Destination": "南港展覽館站",
+        "UpdateTime": "2015-08-24T12:03:37.5"
+      }
+    ]
+  }
+}

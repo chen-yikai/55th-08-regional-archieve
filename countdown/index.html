@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Countdown Timer</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+        <script>
+            const targetDate = new Date('2025-03-27T00:00:00').getTime();
+            let prevDays = null;
+            let prevHours = null;
+            let prevMinutes = null;
+            let prevSeconds = null;
+
+            function updateCountdown() {
+                const now = new Date().getTime();
+                const timeLeft = targetDate - now;
+
+                const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+                const eledd = document.getElementById('dd');
+                const elehh = document.getElementById('hh');
+                const elemm = document.getElementById('mm');
+                const eless = document.getElementById('ss');
+
+                // Update and animate only if the value changes
+                if (days !== prevDays) {
+                    eledd.innerText = days.toString().padStart(2, '0');
+                    animateElement(eledd);
+                    prevDays = days;
+                }
+                if (hours !== prevHours) {
+                    elehh.innerText = hours.toString().padStart(2, '0');
+                    animateElement(elehh);
+                    prevHours = hours;
+                }
+                if (minutes !== prevMinutes) {
+                    elemm.innerText = minutes.toString().padStart(2, '0');
+                    animateElement(elemm);
+                    prevMinutes = minutes;
+                }
+                if (seconds !== prevSeconds) {
+                    eless.innerText = seconds.toString().padStart(2, '0');
+                    animateElement(eless);
+                    prevSeconds = seconds;
+                }
+            }
+
+            function animateElement(element) {
+                element.classList.add('animation-active');
+                setTimeout(() => {
+                    element.classList.remove('animation-active');
+                }, 500); // Match animation duration
+            }
+
+            setInterval(updateCountdown, 1000); // Update every second
+            updateCountdown(); // Initial call
+        </script>
+        <style>
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(-10px); /* Optional: add slight movement */
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            .animation-active {
+                animation: fadeIn 0.5s ease-in-out;
+            }
+            .num {
+                font-size: 130px;
+                padding: 0 25px;
+                font-weight: bold;
+            }
+            #counter {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+            }
+            #title {
+                font-size: 50px;
+            }
+            .unit {
+                font-size: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="nonexistent.jpg" onerror="window.location='https://www.youtube.com/watch?v=dQw4w9WgXcQ'" style="display:none;">
+        <div class="absolute z-[5] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[50vw]">
+            <p class="font-bold text-center pb-5" id="title">第55屆全國技能競賽分區賽</p>
+            <div class="max-w-[700px] h-[3px] bg-black mx-auto"></div>
+            <p class="text-center pt-5" id="counter">
+                <span class="num" id="dd">00</span>
+                <span class="num" id="hh">00</span>
+                <span class="num" id="mm">00</span>
+                <span class="num" id="ss">00</span>
+                <span class="unit">DAYS</span>
+                <span class="unit">HOURS</span>
+                <span class="unit">MINUTES</span>
+                <span class="unit">SECONDS</span>
+            </p>
+        </div>
+        <iframe src="https://skills-55th-countdown-roll.eliaschen.dev/" class="opacity-50 w-full h-[100vh] border-1 bg=red=500" />
+    </body>
+</html>

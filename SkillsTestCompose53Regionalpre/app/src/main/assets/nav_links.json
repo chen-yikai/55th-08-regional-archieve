@@ -1,0 +1,36 @@
+[
+  {
+    "title": "關於展館",
+    "route": "",
+    "sub": [
+      {
+        "title": "經營者",
+        "route": "about_operator"
+      },
+      {
+        "title": "展館介紹",
+        "route": "about_info"
+      }
+    ]
+  },
+  {
+    "title": "樓層立體圖",
+    "route": "floor_3d"
+  },
+  {
+    "title": "公共藝術",
+    "route": "public_art"
+  },
+  {
+    "title": "聯絡我們",
+    "route": "contact"
+  },
+  {
+    "title": "全部票卡",
+    "route": "tickets"
+  },
+  {
+    "title": "主畫面",
+    "route": "home"
+  }
+]

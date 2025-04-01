@@ -1,0 +1,12 @@
+{
+  "ticketId": "TK-61fdadfc-bbb9-11ed",
+  "ticketType": "一日票",
+  "price": "230",
+  "payment": "Line Pay",
+  "user": {
+    "name": "王曉明",
+    "email": "abcd@mail.com",
+    "phoneNumber": "0912345678",
+    "date": "2022/03/06"
+  }
+}

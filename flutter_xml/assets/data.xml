@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations>
+    <result>
+        <offset>0</offset>
+        <limit>10000</limit>
+        <count>23</count>
+        <sort></sort>
+        <results>
+            <station>
+                <id>1</id>
+                <Station>Taipei Main Station</Station>
+                <Destination>Banqiao Station</Destination>
+                <UpdateTime>2023-03-15T09:25:37.907</UpdateTime>
+                <LineColor>Blue Line</LineColor>
+            </station>
+            <station>
+                <id>2</id>
+                <Station>Zhongxiao Fuxing Station</Station>
+                <Destination>Nangang Exhibition Center Station</Destination>
+                <UpdateTime>2023-03-15T09:26:12.152</UpdateTime>
+                <LineColor>Blue Line</LineColor>
+            </station>
+            <station>
+                <id>3</id>
+                <Station>Daan Station</Station>
+                <Destination>Taipei Zoo Station</Destination>
+                <UpdateTime>2023-03-15T09:27:05.334</UpdateTime>
+                <LineColor>Wenhu Line</LineColor>
+            </station>
+            <station>
+                <id>4</id>
+                <Station>Xiangshan Station</Station>
+                <Destination>Tamsui Station</Destination>
+                <UpdateTime>2023-03-15T09:28:42.227</UpdateTime>
+                <LineColor>Red Line</LineColor>
+            </station>
+            <station>
+                <id>5</id>
+                <Station>Ximen Station</Station>
+                <Destination>Xindian Station</Destination>
+                <UpdateTime>2023-03-15T09:29:15.116</UpdateTime>
+                <LineColor>Green Line</LineColor>
+            </station>
+            <station>
+                <id>6</id>
+                <Station>Guting Station</Station>
+                <Destination>Songshan Station</Destination>
+                <UpdateTime>2023-03-15T09:30:22.573</UpdateTime>
+                <LineColor>Green Line</LineColor>
+            </station>
+            <station>
+                <id>7</id>
+                <Station>Nanjing Fuxing Station</Station>
+                <Destination>Dazhi Station</Destination>
+                <UpdateTime>2023-03-15T09:31:07.624</UpdateTime>
+                <LineColor>Wenhu Line</LineColor>
+            </station>
+            <station>
+                <id>8</id>
+                <Station>Minquan West Road Station</Station>
+                <Destination>Beitou Station</Destination>
+                <UpdateTime>2023-03-15T09:32:18.901</UpdateTime>
+                <LineColor>Red Line</LineColor>
+            </station>
+            <station>
+                <id>9</id>
+                <Station>Yongchun Station</Station>
+                <Destination>Dingpu Station</Destination>
+                <UpdateTime>2023-03-15T09:33:05.317</UpdateTime>
+                <LineColor>Blue Line</LineColor>
+            </station>
+            <station>
+                <id>10</id>
+                <Station>Xindian Station</Station>
+                <Destination>Ximen Station</Destination>
+                <UpdateTime>2023-03-15T09:34:22.183</UpdateTime>
+                <LineColor>Green Line</LineColor>
+            </station>
+            <station>
+                <id>11</id>
+                <Station>Beitou Station</Station>
+                <Destination>Xiangshan Station</Destination>
+                <UpdateTime>2023-03-15T09:35:10.457</UpdateTime>
+                <LineColor>Red Line</LineColor>
+            </station>
+            <station>
+                <id>12</id>
+                <Station>Taipei Zoo Station</Station>
+                <Destination>Nanjing Fuxing Station</Destination>
+                <UpdateTime>2023-03-15T09:36:02.733</UpdateTime>
+                <LineColor>Wenhu Line</LineColor>
+            </station>
+            <station>
+                <id>13</id>
+                <Station>Songshan Station</Station>
+                <Destination>Xindian Station</Destination>
+                <UpdateTime>2023-03-15T09:37:15.225</UpdateTime>
+                <LineColor>Green Line</LineColor>
+            </station>
+            <station>
+                <id>14</id>
+                <Station>Nangang Exhibition Center Station</Station>
+                <Destination>Taipei Main Station</Destination>
+                <UpdateTime>2023-03-15T09:38:07.912</UpdateTime>
+                <LineColor>Blue Line</LineColor>
+            </station>
+            <station>
+                <id>15</id>
+                <Station>Banqiao Station</Station>
+                <Destination>Nangang Exhibition Center Station</Destination>
+                <UpdateTime>2023-03-15T09:39:22.416</UpdateTime>
+                <LineColor>Blue Line</LineColor>
+            </station>
+            <station>
+                <id>16</id>
+                <Station>Tamsui Station</Station>
+                <Destination>Taipei Main Station</Destination>
+                <UpdateTime>2023-03-15T09:40:15.733</UpdateTime>
+                <LineColor>Red Line</LineColor>
+            </station>
+            <station>
+                <id>17</id>
+                <Station>Dazhi Station</Station>
+                <Destination>Taipei Zoo Station</Destination>
+                <UpdateTime>2023-03-15T09:41:05.217</UpdateTime>
+                <LineColor>Wenhu Line</LineColor>
+            </station>
+            <station>
+                <id>18</id>
+                <Station>Dingpu Station</Station>
+                <Destination>Taipei Main Station</Destination>
+                <UpdateTime>2023-03-15T09:42:12.652</UpdateTime>
+                <LineColor>Blue Line</LineColor>
+            </station>
+            <station>
+                <id>19</id>
+                <Station>Taipei City Hall Station</Station>
+                <Destination>Taipei Main Station</Destination>
+                <UpdateTime>2023-03-15T09:43:18.241</UpdateTime>
+                <LineColor>Blue Line</LineColor>
+            </station>
+            <station>
+                <id>20</id>
+                <Station>Gongguan Station</Station>
+                <Destination>Songshan Station</Destination>
+                <UpdateTime>2023-03-15T09:44:07.913</UpdateTime>
+                <LineColor>Green Line</LineColor>
+            </station>
+            <station>
+                <id>21</id>
+                <Station>Xinyi Anhe Station</Station>
+                <Destination>Tamsui Station</Destination>
+                <UpdateTime>2023-03-15T09:45:22.517</UpdateTime>
+                <LineColor>Red Line</LineColor>
+            </station>
+            <station>
+                <id>22</id>
+                <Station>Zhongshan Station</Station>
+                <Destination>Xiangshan Station</Destination>
+                <UpdateTime>2023-03-15T09:46:13.212</UpdateTime>
+                <LineColor>Green Line</LineColor>
+            </station>
+            <station>
+                <id>23</id>
+                <Station>Neihu Station</Station>
+                <Destination>Nanjing Fuxing Station</Destination>
+                <UpdateTime>2023-03-15T09:47:05.728</UpdateTime>
+                <LineColor>Wenhu Line</LineColor>
+            </station>
+        </results>
+    </result>
+</stations>
